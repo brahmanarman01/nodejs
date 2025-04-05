@@ -12,6 +12,7 @@ res.send('server is working on localhost3000')
 })
 const personroutes=require('./routes/personroutes')
  app.use('/person',personroutes) 
+ // git commit
 app.listen(3000,()=>{ 
     console.log("our server is live")
 })
