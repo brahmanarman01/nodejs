@@ -1,7 +1,7 @@
 const mongoose =require('mongoose')
 //define mongodb connection url
 // const mongourl='mongodb://localhost:27017/hotels'//ye connect hote hi apnr aap db  banalega
-const  mongourl = "mongodb+srv://atlas-sample-dataset-load-67f220b4ee189640726248f0:Arman@123uuu@cluster0example.vpezoav.mongodb.net/?appName=Cluster0example";
+const  mongourl = "mongodb+srv://atlas-sample-dataset-load-67f220b4ee189640726248f0:Arman@123uuu@cluster0example.vpezoav.mongodb.net/"
 // setup mongodb connection\
 
 mongoose.connect(mongourl, {
